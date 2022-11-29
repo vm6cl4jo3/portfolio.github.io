@@ -8,7 +8,10 @@ div.animation{
     display:flex;
     justify-content: center;
     align-items: center;
+    
 }
+
+
 
 #first{
     stroke-dasharray:441px ;
@@ -91,6 +94,7 @@ div.animation{
 
 svg{
     animation: fill 1s ease-in forwards 3.6s;
+    
 }
 
 

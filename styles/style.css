@@ -2,6 +2,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: "Noto Sans TC", sans-serif;
+  font-family: "Noto Serif TC", serif;
 }
 
 header nav {
@@ -49,9 +51,45 @@ main section.right img {
   -o-object-fit: cover;
      object-fit: cover;
   position: absolute;
-  top: 55vh;
+  top: 45vh;
   right: 25vw;
   transform: translateY(-50%);
+}
+main section.table {
+  flex: 3 1 500px;
+  padding: 2rem;
+}
+main section.table table {
+  border-collapse: collapse;
+}
+main section.table table tr {
+  border-bottom: 2px solid gray;
+  transition: all 0.2s ease;
+}
+main section.table table tr:hover {
+  background-color: rgb(205, 255, 252);
+}
+main section.table table tr td {
+  padding: 1rem;
+}
+main section.picture {
+  flex: 1 1 600px;
+}
+main section.picture img {
+  padding-top: 30%;
+  width: 40vw;
+  position: relative;
+  align-items: center;
+}
+main section.picture div.grayrect {
+  padding-top: 30%;
+  width: 40vw;
+  height: 50vh;
+  background-color: gray;
+  position: absolute;
+  top: 310px;
+  left: 850px;
+  z-index: -1;
 }
 
 .active {
